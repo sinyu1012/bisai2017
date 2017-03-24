@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <Button
+        android:id="@+id/start"
+        android:background="@drawable/start"
+        android:layout_width="200dp"
+        android:layout_height="70dp"
+        android:layout_x="74dp"
+        android:layout_y="367dp" />
+
+    <ImageView
+        android:id="@+id/image"
+        android:src="@drawable/start2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal|bottom"
+        android:layout_x="1dp"
+        android:layout_y="-1dp" />
+
+</AbsoluteLayout>
